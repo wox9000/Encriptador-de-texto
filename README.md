@@ -41,3 +41,4 @@ Tenemos un periodo de tiempo de cuatro semanas para desarrollar el proyecto y va
 El Trello es una herramienta de uso individual para que puedas controlar el progreso de tus actividades, pero no será evaluada.
 
  Buen proyecto!
+# Encriptador-de-texto
