@@ -11,7 +11,7 @@ html{
     }
 
 body{
-    background-image: linear-gradient(rgb(255, 25, 220), rgba(255, 255, 0, 0.5)), url("imagenes/bosque.jpeg");
+    background-image: linear-gradient(rgb(255, 25, 220), rgba(255, 255, 0, 0.5));
     border-radius: 32px;
 }
 
@@ -52,39 +52,40 @@ body{
 #box-input{
     height: 81%;
 }
+
 #box-input2{
     height: 19%;
     margin-bottom: 15px;
 }
 
     #box-input textarea{
-        margin: 10px;
-        padding: 12px;
+        margin: 8px;
+        padding: 8px;
         margin-top: 100px;
         height: 100%;
         border: none;
         outline: none !important;
         resize: none;
-        background: #F3F5FC;
+        background: #ffe3fe;
         color: #0A3871;
         font-family: 'Inter';
         font-style: normal;
         font-size: 32px;
         border-radius: 32px;
     }
-
+    
     ::placeholder{
         font-weight: 400;
         font-size: 32px;
         line-height: 150%;
-        color: #0A3871;
+        color: #66095a;
     }
 
     #note{
         display: flex;
         font-size: 12px;
         opacity: 0.8;
-        color: #495057;
+        color: #8e1890;
     }
 
     #note img{
@@ -118,10 +119,10 @@ body{
         }
 
         #encriptar:hover{
-            background: rgba(4, 30, 63, 0.900);
+            background: rgba(92, 7, 100, 0.9);
             cursor: pointer;
         }
-
+        
         #encriptar span{
             font-weight: 400;
             font-size: 16px;
@@ -150,7 +151,7 @@ body{
             font-size: 16px;
             line-height: 19px;
             text-align: center;           
-            color: #0A3871;
+            color: #671174;
             margin: auto;
         }
 
@@ -170,7 +171,7 @@ body{
         height: 95%;
         font-size: 24px;
         padding: 25px;
-        color: #495057;
+        color: #a12582;
         display: none;
     }
 
@@ -178,7 +179,8 @@ body{
         width: 336px;
         height: 304px;
         margin-top: 100px;
-        align-self: center;
+        align-self:center;
+        padding-left: 20%;
         display: block;
     }
 
@@ -187,7 +189,7 @@ body{
         font-weight: 700;
         font-size: 24px;
         text-align: center;
-        color: #343A40;
+        color: #400a47;
         align-self: center;
         display: block;
     }
@@ -201,7 +203,7 @@ body{
         font-size: 16px;
         line-height: 150%;
         text-align: center;
-        color: #495057;
+        color: #3f0a46;
         align-self: center;
         display: block;
     }
@@ -233,21 +235,24 @@ body{
         font-size: 16px;
         line-height: 19px;
         text-align: center;           
-        color: #0A3871;
+        color: #360838;
         margin: auto;
     }
 
 footer{
-    height: 5vh;
+    height: 15vh;
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
+    
 }
 
 footer p{
+    padding-top: 4%;
     list-style: none;
     margin: 0px 0px 0px 0px;
     text-align: center;
+    border-radius: 32%;
   }
 
 footer ul{
@@ -255,17 +260,20 @@ footer ul{
     flex-flow: row nowrap;
     margin: 0px;
     padding: 0px;
+    border-radius: 32px;
 }
 
 footer li{
     list-style: none;
     margin: 5px 10px 5px 10px;
+    border-radius: 32px;
   }
 
 footer a{
     text-decoration: none;
     color: #0A3871;
     font-size: 20px;
+    border-radius: 32px;
 }
 
 footer a:hover{
